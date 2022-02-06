@@ -2,4 +2,4 @@
 
 void showGallows(int guessLimit);
 
-void showSolved(char word[], char guesses[]);
+//void showSolved(char word[], char guesses[]);

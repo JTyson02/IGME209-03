@@ -17,7 +17,7 @@ void showGallows(int guessLimit) {
 			<< "\n|"
 			<< "\n|"
 			<< "\n|"
-			<< "\n\nYou have " << 8 - guessLimit << " guesses left!"
+			<< "\n\nYou have " << guessLimit << " guesses left!"
 			<< endl;
 		break;
 
@@ -30,7 +30,7 @@ void showGallows(int guessLimit) {
 			<< "\n|"
 			<< "\n|"
 			<< "\n|"
-			<< "\n\nYou have " << 8 - guessLimit << " guesses left!"
+			<< "\n\nYou have " << guessLimit << " guesses left!"
 			<< endl;
 		break;
 
@@ -43,7 +43,7 @@ void showGallows(int guessLimit) {
 			<< "\n|"
 			<< "\n|"
 			<< "\n|"
-			<< "\n\nYou have " << 8 - guessLimit << " guesses left!"
+			<< "\n\nYou have " << guessLimit << " guesses left!"
 			<< endl;
 		break;
 
@@ -56,7 +56,7 @@ void showGallows(int guessLimit) {
 			<< "\n|"
 			<< "\n|"
 			<< "\n|"
-			<< "\n\nYou have " << 8 - guessLimit << " guesses left!"
+			<< "\n\nYou have " << guessLimit << " guesses left!"
 			<< endl;
 		break;
 
@@ -69,7 +69,7 @@ void showGallows(int guessLimit) {
 			<< "\n|"
 			<< "\n|"
 			<< "\n|"
-			<< "\n\nYou have " << 8 - guessLimit << " guesses left!"
+			<< "\n\nYou have " << guessLimit << " guesses left!"
 			<< endl;
 		break;
 
@@ -82,7 +82,7 @@ void showGallows(int guessLimit) {
 			<< "\n|"
 			<< "\n|"
 			<< "\n|"
-			<< "\n\nYou have " << 8 - guessLimit << " guesses left!"
+			<< "\n\nYou have " << guessLimit << " guesses left!"
 			<< endl;
 		break;
 
@@ -95,7 +95,7 @@ void showGallows(int guessLimit) {
 			<< "\n|  /"
 			<< "\n|"
 			<< "\n|"
-			<< "\n\nYou have " << 8 - guessLimit << " guesses left!"
+			<< "\n\nYou have " << guessLimit << " guesses left!"
 			<< endl;
 		break;
 
@@ -108,7 +108,7 @@ void showGallows(int guessLimit) {
 			<< "\n|  / \\"
 			<< "\n|"
 			<< "\n|"
-			<< "\n\nYou have no guesses left!"
+			<< "\n\nYou have 1 guess left!"
 			<< endl;
 		break;
 
@@ -116,14 +116,5 @@ void showGallows(int guessLimit) {
 
 }
 
-void showSolved(char word[], char guesses[]) 
-{
-
-	char correctGuesses[8] = "test";
-
-	if (guesses) {
-
-	}
-
-
-}
+//void showSolved(char word[], char guesses[]) {}
+//Ended up not needing this function
