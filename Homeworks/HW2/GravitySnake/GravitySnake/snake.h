@@ -1,9 +1,10 @@
 #pragma once
+#include <Box2D/Box2D.h>
 
-void Update();
+void Update(b2World *world, float timeStep);
 
-void Display();
+void Display(b2Body& body);
 
-void ApplyForces();
+void ApplyForces(b2Body *body, char key);
 
-void MoveTarget(float& xpos, float& ypos);
+void MoveTarget(float& xpos, float& ypos, b2Body &body, int &targetsHit);
